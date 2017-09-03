@@ -3,6 +3,7 @@
 
 # Información del repo adalab-intro-testing-tdd
 * Kata de práctica para la charla en Adalab Digital del 4 de septiembre de 2017.
+  * Esta rama contiene la solución implementada por Yeray Darias: https://github.com/ydarias/Solveet-FizzBuzz
 * Puedes encontrar los slides de la presentación aquí: https://speakerdeck.com/islomar/introduccion-al-testing-y-tdd
 
 ## Información general
