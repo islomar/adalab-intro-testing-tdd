@@ -31,8 +31,10 @@ El sistema debe tener **node** y **npm** instalados.
 * Los tests deben guardarse bajo la carpeta /test, con sufijo **Spec.js**
 * `npm run test:watch`: ejecuta los tests en fondo, refrescándose automáticamente ante cambios
 * `npm run test`: ejecuta los tests una única vez
+* `npm run mocha`: ejecuta los tests y el feedback te lo da un gatete ^___^
 
 
 ## Integración continua
 * Este repositorio está integrado con TravisCI (a través del fichero .travis.yml). Cada vez que se suba código al repositorio de GitHub, se ejecutarán automáticamente los tests en dicho servidor de integración continua, pudiendo ver el resultado de su ejecución en la parte superior del README (badge verde o rojo según si están pasando correctamente o no).
-* Si has hecho un fork de este repo, tendrás que ir a tu cuenta de TravisCI, habilitar este repo y cambiar la URL incluída en la cabecera de este README (sustituir *islomar* por tu username de GitHub).
+* Si has hecho un fork de este repo, tendrás que ir a tu cuenta de TravisCI, habilitar este repo y cambiar la URL incluída en la cabecera de este README (sustituir *islomar* por tu username de GitHub
+  ).
