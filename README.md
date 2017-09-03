@@ -1,20 +1,19 @@
 # Información del repo adalab-intro-testing-tdd
 Kata de práctica para la charla en Adalab Digital del 4 de septiembre de 2017
 
-** Información general
+## Información general
 Para llevar a cabo esta práctica, tienes dos opciones:
 1. Realizarla online, a través de Codepen. Para ello, sigue los siguientes pasos:
-  1.1. Ir a https://codepen.io/islomar/details/PKLbzx/
-  1.2. Hack click sobre "Fork"
-  1.3. Si ya tienes una cuenta, lógate. Si no, puedes clicar sobre "Save anonymously"
-  1.4. Enhorabuena: ¡ya tienes una copia del fichero base sobre la que puedes trabajar!
+  * Ir a https://codepen.io/islomar/details/PKLbzx/
+  * Hack click sobre "Fork"
+  * Si ya tienes una cuenta, lógate. Si no, puedes clicar sobre "Save anonymously"
+  * Enhorabuena: ¡ya tienes una copia del fichero base sobre la que puedes trabajar!
 2. Realizarla en un entorno local. Para ello, sigue los pasos descritos en el resto de este README.
 
 
 ## Entorno usado
 * Atom
 * Plugins:
-  * terminal-plus: https://atom.io/packages/terminal-plus
   * platformio-ide-terminal
   * autosave
 
