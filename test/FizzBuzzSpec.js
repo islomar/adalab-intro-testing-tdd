@@ -6,6 +6,18 @@ beforeEach(function() {
 
 describe('fizzbuzz()', function() {
 
+  describe("should return input for numbers not divisible by 3 or 5", function() {
+
+      it("for example 0", function() {
+          expect(this.fizzBuzz.calculate(0)).to.equal(0);
+      });
+
+      it("for example 1", function() {
+          expect(this.fizzBuzz.calculate(1)).to.equal(1);
+      });
+
+  });
+
   describe("should return 'buzz' for numbers divisible by 5", function() {
 
     it("for example 5", function() {
