@@ -42,6 +42,18 @@ describe('FizzBuzz()', function() {
 
   });
 
+  describe("should return 'fizzbuzz' for numbers divisible by 3 and 5", function() {
+
+      it("for example 15", function() {
+          expect(this.fizzBuzz.calculate(15)).to.equal('fizzbuzz');
+      });
+
+      it("for example 30", function() {
+          expect(this.fizzBuzz.calculate(30)).to.equal('fizzbuzz');
+      });
+
+  });
+
  });
 
 Number.prototype.isDivisibleBy = function(divisor) {
