@@ -13,7 +13,6 @@ Para llevar a cabo esta práctica, tienes dos opciones:
   1.4. Enhorabuena: ¡ya tienes una copia del fichero base sobre la que puedes trabajar!
 2. Realizarla en un **entorno local**. Para ello, sigue los pasos descritos en el resto de este README.
 
-
 ## Entorno usado
 * Atom
 * Plugins:
@@ -34,8 +33,6 @@ El sistema debe tener **node** y **npm** instalados.
 * `npm run test`: ejecuta los tests una única vez
 
 
-## Docker
-`docker run -t -i ubuntu:16.04 /bin/bash`
-
-sudo apt-get update
-sudo apt-get install nodejs npm -y
+## Integración continua
+* Este repositorio está integrado con TravisCI (a través del fichero .travis.yml). Cada vez que se suba código al repositorio de GitHub, se ejecutarán automáticamente los tests en dicho servidor de integración continua, pudiendo ver el resultado de su ejecución en la parte superior del README (badge verde o rojo según si están pasando correctamente o no).
+* Si has hecho un fork de este repo, tendrás que ir a tu cuenta de TravisCI, habilitar este repo y cambiar la URL incluída en la cabecera de este README (sustituir *islomar* por tu username de GitHub).
