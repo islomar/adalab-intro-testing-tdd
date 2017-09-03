@@ -4,7 +4,7 @@ beforeEach(function() {
   this.fizzBuzz = new FizzBuzz();
 });
 
-describe('fizzbuzz()', function() {
+describe('FizzBuzz()', function() {
 
   describe("should return input for numbers not divisible by 3 or 5", function() {
 
@@ -14,6 +14,18 @@ describe('fizzbuzz()', function() {
 
       it("for example 1", function() {
           expect(this.fizzBuzz.calculate(1)).to.equal(1);
+      });
+
+  });
+
+  describe("should return 'fizz' for numbers divisible by 3", function() {
+
+      it("for example 3", function() {
+          expect(this.fizzBuzz.calculate(3)).to.equal('fizz');
+      });
+
+      it("for example 6", function() {
+          expect(this.fizzBuzz.calculate(6)).to.equal('fizz');
       });
 
   });
