@@ -26,6 +26,7 @@ El sistema debe tener **node** y **npm** instalados.
 
 
 ## Cómo ejecutar los tests
+* Los tests deben guardarse bajo la carpeta /test, con sufijo **Spec.js**
 * `npm run test:watch`: ejecuta los tests en fondo, refrescándose automáticamente ante cambios
 * `npm run test`: ejecuta los tests una única vez
 
