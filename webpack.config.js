@@ -31,6 +31,12 @@ module.exports = {
         ]
     },
 
+    plugins: [
+        new webpack.ProvidePlugin({
+            _: 'underscore'
+        })
+    ],
+
     target: 'node'
 
 };
