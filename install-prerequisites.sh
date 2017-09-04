@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#docker run -v "$PWD":/root/workspace -t -i ubuntu:14.04 bash
+
 #By default, you don't need to install this
 sudo apt-get update
 sudo apt-get install nodejs npm
