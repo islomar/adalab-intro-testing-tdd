@@ -10,7 +10,7 @@
 Para llevar a cabo esta práctica, tienes dos opciones:
 1. Realizarla **online, a través de Codepen**. Para ello, sigue los siguientes pasos:
   * Ir a https://codepen.io/islomar/details/PKLbzx/
-  * Hack click sobre "Fork"
+  * Haz click sobre "Fork"
   * Si ya tienes una cuenta, lógate. Si no, puedes clicar sobre "Save anonymously"
   * Enhorabuena: ¡ya tienes una copia del fichero base sobre la que puedes trabajar!
 2. Realizarla en un **entorno local**. Para ello, sigue los pasos descritos en el resto de este README.
@@ -38,5 +38,4 @@ El sistema debe tener **node** y **npm** instalados.
 
 ## Integración continua
 * Este repositorio está integrado con **TravisCI** (a través del fichero .travis.yml). Cada vez que se suba código al repositorio de GitHub, se ejecutarán automáticamente los tests en dicho servidor de integración continua, pudiendo ver el resultado de su ejecución en la parte superior del README (badge verde o rojo según si están pasando correctamente o no).
-* Si has hecho un **fork de este repo**, tendrás que ir a tu cuenta de TravisCI, habilitar este repo y cambiar la URL incluída en la cabecera de este README (sustituir *islomar* por tu username de GitHub
-  ).
+* Si has hecho un **fork de este repo**, tendrás que ir a tu cuenta de TravisCI, habilitar este repo y cambiar la URL incluída en la cabecera de este README (sustituir *islomar* por tu username de GitHub).
