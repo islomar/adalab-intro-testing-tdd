@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#docker run -v "$PWD":/root/workspace -t -i ubuntu:14.04 bash
+#docker run -v "$PWD":/root/workspace -t -i node:6.10 bash
 
 #By default, you don't need to install this
 sudo apt-get update
