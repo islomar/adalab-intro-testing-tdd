@@ -12,7 +12,7 @@ Para llevar a cabo esta práctica, tienes tres opciones:
   * Haz click sobre "Fork"
   * Si ya tienes una cuenta, lógate. Si no, puedes clicar sobre "Save anonymously"
   * Enhorabuena: ¡ya tienes una copia del fichero base sobre la que puedes trabajar!
-2. Si no quieres instalar nada en tu PC o te problemas de compatibilidad con el OS, puedes usar **Docker** de la siguiente manera (siempre y cuando lo tengas instalado):
+2. Si no quieres instalar nada en tu PC o tienes problemas de compatibilidad con el OS, puedes usar **Docker** de la siguiente manera (siempre y cuando lo tengas instalado):
   * Clónate/forkea este repo
   * Desde dentro del repo, ejecuta `docker run -v "$PWD":/root/workspace -t -i node:6.10 bash`
   * Ve al directorio `/root/workspace`
