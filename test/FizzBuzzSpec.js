@@ -1,4 +1,4 @@
-var expect = chai.expect;
+var expect = require('chai').expect;
 
 describe('FizzBuzz()', function() {
 
