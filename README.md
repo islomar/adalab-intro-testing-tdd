@@ -6,13 +6,18 @@
 * Puedes encontrar los slides de la presentación aquí: https://speakerdeck.com/islomar/introduccion-al-testing-y-tdd
 
 ## Información general
-Para llevar a cabo esta práctica, tienes dos opciones:
+Para llevar a cabo esta práctica, tienes tres opciones:
 1. Realizarla **online, a través de Codepen**. Para ello, sigue los siguientes pasos:
   * Ir a https://codepen.io/islomar/details/PKLbzx/
   * Haz click sobre "Fork"
   * Si ya tienes una cuenta, lógate. Si no, puedes clicar sobre "Save anonymously"
   * Enhorabuena: ¡ya tienes una copia del fichero base sobre la que puedes trabajar!
-2. Realizarla en un **entorno local**. Para ello, sigue los pasos descritos en el resto de este README.
+2. Si no quieres instalar nada en tu PC o te problemas de compatibilidad con el OS, puedes usar **Docker** de la siguiente manera (siempre y cuando lo tengas instalado):
+  * Clónate/forkea este repo
+  * Desde dentro del repo, ejecuta `docker run -v "$PWD":/root/workspace -t -i node:6.10 bash`
+  * Ve al directorio `/root/workspace`
+  * Desde ahí, puedes ejecutar el resto de pasos de este README
+3. Realizarla en un **entorno local**. Para ello, sigue los pasos descritos en el resto de este README.
 
 ## Entorno usado
 * Atom
