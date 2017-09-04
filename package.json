@@ -5,6 +5,7 @@
   "author": "islomar",
   "main": "entry.js",
   "scripts": {
+    "precommit": "npm run test",
     "build": "webpack --progress",
     "test": "NODE_ENV=testing karma start --single-run",
     "test:watch": "NODE_ENV=testing karma start",
@@ -28,6 +29,7 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "coveralls": "^2.13.1",
+    "husky": "^0.14.3",
     "karma": "^1.7.1",
     "karma-chai": "^0.1.0",
     "karma-coverage": "^1.1.1",
