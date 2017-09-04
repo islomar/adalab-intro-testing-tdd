@@ -4,6 +4,7 @@
 # Información del repo adalab-intro-testing-tdd
 * Kata de práctica para la charla en Adalab Digital del 4 de septiembre de 2017.
 * Puedes encontrar los slides de la presentación aquí: https://speakerdeck.com/islomar/introduccion-al-testing-y-tdd
+  * También puedes encontrar el PDF en este mismo repositorio, sobre todo por los links clickables.
 
 ## Información general
 Para llevar a cabo esta práctica, tienes tres opciones:
